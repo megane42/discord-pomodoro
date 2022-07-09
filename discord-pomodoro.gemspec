@@ -30,5 +30,4 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "discordrb", "~> 3.4"
-  spec.add_development_dependency "dotenv"
 end
