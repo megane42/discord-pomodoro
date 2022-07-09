@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "discord/pomodoro"
+
+Discord::Pomodoro::Bot.new.run

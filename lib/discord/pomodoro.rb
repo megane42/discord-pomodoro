@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "pomodoro/version"
+require "discord/pomodoro/version"
+require "discord/pomodoro/bot"
 
 module Discord
   module Pomodoro
     class Error < StandardError; end
-    # Your code goes here...
   end
 end
