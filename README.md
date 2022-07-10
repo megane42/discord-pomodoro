@@ -23,16 +23,16 @@
 ```sh
 git clone https://github.com/megane42/discord-pomodoro.git
 cd discord-pomodoro
-echo DISCORD_BOT_TOKEN=****** >> .env
-echo DISCORD_VOICE_CHANNEL_ID=****** >> .env
+echo DISCORD_POMODORO_DISCORD_BOT_TOKEN=****** >> .env
+echo DISCORD_POMODORO_DISCORD_VOICE_CHANNEL_ID=****** >> .env
 docker-compose run --rm app
 ```
 
 ### Docker way
 
 ```sh
-export DISCORD_BOT_TOKEN=******
-export DISCORD_VOICE_CHANNEL_ID=******
+export DISCORD_POMODORO_DISCORD_BOT_TOKEN=******
+export DISCORD_POMODORO_DISCORD_VOICE_CHANNEL_ID=******
 docker run --rm -it megane42/discord-pomodoro
 ```
 
@@ -41,8 +41,8 @@ docker run --rm -it megane42/discord-pomodoro
 ```sh
 sudo apt-get install libsodium-dev libopus-dev ffmpeg
 gem install discord-pomodoro
-export DISCORD_BOT_TOKEN=******
-export DISCORD_VOICE_CHANNEL_ID=******
+export DISCORD_POMODORO_DISCORD_BOT_TOKEN=******
+export DISCORD_POMODORO_DISCORD_VOICE_CHANNEL_ID=******
 discord-pomodoro
 ```
 

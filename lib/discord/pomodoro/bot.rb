@@ -20,11 +20,11 @@ module Discord
       private
 
       def bot
-        @bot ||= Discordrb::Bot.new token: ENV["DISCORD_BOT_TOKEN"]
+        @bot ||= Discordrb::Bot.new token: ENV["DISCORD_POMODORO_DISCORD_BOT_TOKEN"]
       end
 
       def voice_bot
-        @voice_bot ||= bot.voice_connect(ENV["DISCORD_VOICE_CHANNEL_ID"])
+        @voice_bot ||= bot.voice_connect(ENV["DISCORD_POMODORO_DISCORD_VOICE_CHANNEL_ID"])
       end
 
       def connect_voice_bot

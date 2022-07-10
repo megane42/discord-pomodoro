@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## [0.2.0] - 2022-07-10
+
+### Changed
+
+- Change env-var names to add namespace.
+
 ## [0.1.1] - 2022-07-10
 
 ### Fixed
