@@ -54,6 +54,7 @@ discord-pomodoro
   - `docker-compose run --rm dev discord-pomodoro`
 - Release
   - `emacs CHANGELOG.md`
+    - https://keepachangelog.com/en/1.0.0/
   - `emacs lib/discord/pomodoro/version.rb`
   - `bundle exec rake release`
 
