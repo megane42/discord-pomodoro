@@ -5,9 +5,6 @@ RUN apt-get update && apt-get install -y \
     libopus-dev \
     ffmpeg
 
-WORKDIR /app
-COPY . /app
-RUN bundle install
-RUN bundle exec rake install
+RUN gem install discord-pomodoro
 
 CMD discord-pomodoro

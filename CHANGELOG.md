@@ -4,6 +4,7 @@
 
 ### Fixed
 
+- Fix docker to use more end-user-like installation
 - Fix some documentations.
 
 ## [0.1.0] - 2022-07-10
