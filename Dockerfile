@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 COPY . /app
-RUN gem build   discord-pomodoro.gemspec && \
-    gem install discord-pomodoro-0.1.0.gem
+RUN bundle install
+RUN bundle exec rake install
 
 CMD discord-pomodoro
